@@ -8,7 +8,7 @@ import pqtcontarpalabras.ContarPalabras;
 
 class ContarPalabrasTests {
 	/**
-	 * 
+	 * Test para probar el metodo contarNumCaracteres de la clase ContarPalabras
 	 */
 	@Test
 	void testcontarNumCaracteres() {
@@ -18,7 +18,7 @@ class ContarPalabrasTests {
 		
 	}
 	/**
-	 * 
+	 * Test para probar el metodo contarNumPalabras de la clase ContarPalabras
 	 */
 	@Test
 	void testcontarNumPalabras() {
@@ -27,7 +27,7 @@ class ContarPalabrasTests {
 		assertFalse(c.contarNumPalabras("Hola")==2);
 	}
 	/**
-	 * 
+	 * Test para probar el metodo contarCaracteresRepetidos de la clase ContarPalabras
 	 */
 	@Test
 	void testcontarCaracteresRepetidos() {
