@@ -5,18 +5,18 @@ package pqtcontarpalabras;
  */
 public class Imprimir {
     
-    final static String TEXTO_LETRAS = "Las letras y car�cteres que hay y se repiten son: ";
-    final static String TEXTO_PALABRAS = "Se han ingresado ";
-    final static String TEXTO_FINAL_PALABRAS = " palabras.";
-    final static String TEXTO_TOTAL_CARACTERES_SIN_BLANCOS = "Se han introducido un total de ";
-    final static String TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS = " caracteres(sin contar los blancos).";
+    final  String TEXTO_LETRAS = "Las letras y car�cteres que hay y se repiten son: ";
+    final  String TEXTO_PALABRAS = "Se han ingresado ";
+    final  String TEXTO_FINAL_PALABRAS = " palabras.";
+    final  String TEXTO_TOTAL_CARACTERES_SIN_BLANCOS = "Se han introducido un total de ";
+    final  String TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS = " caracteres(sin contar los blancos).";
     /**
      * 
      * @param numCaracteresSinBlancos Le llegan el numero de caracteres sin espacios que hay 
      * @return String - los caracteres totales que hay en la cadena introducida por el usuario
      */
     public String mostrarCaracteresTotal(int numCaracteresSinBlancos) {
-        String texto = TEXTO_TOTAL_CARACTERES_SIN_BLANCOS + numCaracteresSinBlancos + TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS;
+        String texto = TEXTO_TOTAL_CARACTERES_SIN_BLANCOS+numCaracteresSinBlancos+TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS;
         System.out.println(texto);
         return texto;
     }
