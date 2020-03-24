@@ -10,8 +10,8 @@ public class Imprimir {
     final  String TEXTO_FINAL_PALABRAS = " palabras.";
     final  String TEXTO_TOTAL_CARACTERES_SIN_BLANCOS = "Se han introducido un total de ";
     final  String TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS = " caracteres(sin contar los blancos).";
+    
     /**
-     * 
      * @param numCaracteresSinBlancos Le llegan el numero de caracteres sin espacios que hay 
      * @return String - los caracteres totales que hay en la cadena introducida por el usuario
      */
@@ -20,9 +20,10 @@ public class Imprimir {
         System.out.println(texto);
         return texto;
     }
+    
     /**
      * 
-     * @param numPalabras le llegan el numero de palabras que hay
+     * @param numPalabras le llegan el numero de palabras que hay.
      * @return String - las palabras totales que hay en la cadena introducida por el usuario
      */
     public String mostrarNumPalabras(int numPalabras) {
@@ -30,6 +31,7 @@ public class Imprimir {
         System.out.println(texto);
         return texto;
     }
+    
     /**
      * 
      * @param contador le llega el array contador por cada carácter

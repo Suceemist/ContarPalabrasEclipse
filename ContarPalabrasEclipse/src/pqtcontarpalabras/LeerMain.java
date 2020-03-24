@@ -9,6 +9,7 @@ public class LeerMain {
 
 
     public static void main(String[] args) {
+    	
         Scanner scan = new Scanner(System.in);
         System.out.println(TEXTO_PEDIR_CADENA);
         String cadena = scan.nextLine().trim();

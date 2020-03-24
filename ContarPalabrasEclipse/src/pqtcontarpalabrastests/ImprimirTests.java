@@ -11,6 +11,7 @@ class ImprimirTests {
 	/**
 	 * Test para probar el metodo mostrarCaracteresTotal de la clase Imprimir
 	 */
+	
 	@Test
 	void testmostrarCaracteresTotal() {
 		Imprimir i = new Imprimir();
@@ -20,9 +21,11 @@ class ImprimirTests {
 		assertFalse(i.mostrarCaracteresTotal(4).equals(texto));
 		
 	}
+	
 	/**
 	 * Test para probar el metodo mostrarNumPalabras de la clase Imprimir
 	 */
+	
 	@Test
 	void testmostrarNumPalabras() {
 		Imprimir i = new Imprimir();
@@ -31,9 +34,11 @@ class ImprimirTests {
 		assertEquals(i.mostrarNumPalabras(2), texto);
 		assertFalse(i.mostrarNumPalabras(3).equals(texto));
 	}
+	
 	/**
 	 * Test para probar el metodo mostrarCaracteres de la clase Imprimir
 	 */
+	
 	@Test
 	void testmostrarCaracteres() {
 		Imprimir i = new Imprimir();
