@@ -9,7 +9,7 @@ import pqtcontarpalabras.Imprimir;
 class ImprimirTests {
 
 	/**
-	 * 
+	 * Test para probar el metodo mostrarCaracteresTotal de la clase Imprimir
 	 */
 	@Test
 	void testmostrarCaracteresTotal() {
@@ -21,7 +21,7 @@ class ImprimirTests {
 		
 	}
 	/**
-	 * 
+	 * Test para probar el metodo mostrarNumPalabras de la clase Imprimir
 	 */
 	@Test
 	void testmostrarNumPalabras() {
@@ -32,7 +32,7 @@ class ImprimirTests {
 		assertFalse(i.mostrarNumPalabras(3).equals(texto));
 	}
 	/**
-	 * 
+	 * Test para probar el metodo mostrarCaracteres de la clase Imprimir
 	 */
 	@Test
 	void testmostrarCaracteres() {
